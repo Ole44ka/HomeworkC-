@@ -24,7 +24,7 @@ namespace lesson4
             {
                 Dog dog = new Dog(x[i]);
                 dog.say();
-                dog.oldify(y[i], z[i]);
+                dog.oldify();
             }
             
         }
@@ -121,7 +121,7 @@ namespace lesson4
             Console.WriteLine(this.name + ": гав-гав");
         
         }
-        public void oldify(int furLength, int age)
+        public void oldify()
         {
             age += 1;
             furLength += 5;
